@@ -48,6 +48,12 @@ const (
 	AttrDeviceFriendlyName   Attrib = 0x7fff0003
 	AttrDeviceSystemName     Attrib = 0x7fff0004
 	AttrSupressT1IfsRequest  Attrib = 0x7fff0007
+
+	AttrUsbVid               Attrib = 0x7fff0101
+	AttrUsbPid               Attrib = 0x7fff0102
+	AttrUsbBus               Attrib = 0x7fff0103
+	AttrUsbAddress           Attrib = 0x7fff0104
+	AttrUsbPort              Attrib = 0x7fff0105
 )
 
 type Error uint32

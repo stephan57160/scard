@@ -53,6 +53,12 @@ const (
 	AttrDeviceFriendlyName   Attrib = C.SCARD_ATTR_DEVICE_FRIENDLY_NAME
 	AttrDeviceSystemName     Attrib = C.SCARD_ATTR_DEVICE_SYSTEM_NAME
 	AttrSupressT1IfsRequest  Attrib = C.SCARD_ATTR_SUPRESS_T1_IFS_REQUEST
+
+	AttrUsbVid               Attrib = C.SCARD_ATTR_USB_VID
+	AttrUsbPid               Attrib = C.SCARD_ATTR_USB_PID
+	AttrUsbBus               Attrib = C.SCARD_ATTR_USB_BUS
+	AttrUsbAddress           Attrib = C.SCARD_ATTR_USB_ADDRESS
+	AttrUsbPort              Attrib = C.SCARD_ATTR_USB_PORT
 )
 
 type Error uint32
